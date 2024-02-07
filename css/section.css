@@ -1,0 +1,102 @@
+.project-section{
+    padding: 2rem;
+    background-color: var(--secondary-color);
+}
+.project-card{
+    width: 100%;
+    border-radius: 1%;
+}
+.project-card{
+width: 25rem;
+display: flex;
+flex-wrap: wrap;
+padding: 0.5rem;
+border: 1px solid var(--secondary-color);
+border-radius: 1%;
+}
+.project-card:hover{
+    opacity: 0.5;
+    border: 1px solid var(--secondary-color-900);
+}
+
+.skills-container{
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+
+}
+a p:nth-child(2){
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin: 0.5rem 0px;
+
+}
+a p:nth-child(3){
+    font-style: italic;
+}
+a p:nth-child(4){
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+}
+.project-list{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+.expirence-section{
+    h3{
+        color: white;
+        font-weight: bold;
+    }
+    p{
+        padding-top: 0.5rem;
+    }
+
+}
+.flex-direction{
+    flex-direction: column;
+}
+.expirence-card-container
+{
+    width: 25rem;
+display: flex;
+flex-wrap: wrap;
+padding: 0.5rem;
+border: 1px solid var(--background-color);
+border-radius: 1%;
+}
+.skills-exp{
+    padding-top: 1rem;
+}
+.contact-section p{
+    padding-top: 1rem;
+}
+.contact-section{
+    margin-top: 1rem;
+    background-color: var(--secondary-color-900);
+   padding-bottom: 5%;
+padding-top: 2%;}
+.bold{
+    font-weight: bold;
+}
+.flex-row{
+    flex-direction: column;
+}
+footer{
+    width: 100%;
+    height: 10vh;
+    
+}
+footer a{
+    padding-left: 15%;
+    color: white;
+    margin-top: 1%;
+    padding-top: 20px;
+}
